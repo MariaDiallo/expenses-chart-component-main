@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+}
+.diagramme{
+    background-color: hsl(33, 100%, 98%);
+}
+.entete{
+    display: flex;
+    border-radius: 1rem;
+    background-color: hsl(10, 79%, 65%);
+    margin: 2rem;
+    width: 70%;
+}
+.part1{
+    color: hsl(27, 66%, 92%);
+    margin-left: 1.5rem;
+    width: 80%;
+    align-items: center;
+}
+.haut{
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.bas{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.part2{
+    
+    width: 20%; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.corps{
+    border: 1px solid hsl(33, 100%, 98%);
+    width: 70%;
+    margin: 2rem;
+    background-color:  white;
+    border-radius: 1rem;
+}
+
+.partie{
+    margin-left: 1.5rem;
+}
+
+.partie1{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 3rem;
+}
+
+.partie2{
+    display: flex;
+    width: 100%;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 12%;
+    margin-right: 0.5rem;
+    justify-content: end;
+    margin-top: 2.5rem;
+}
+.colone{
+    width: 100%;
+    border-radius: 0.25rem;
+}
+.colone1{
+    height: 70px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.colone2{
+    height: 110px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.colone3{
+    height: 100%;
+    background-color:  hsl(186, 34%, 60%);
+}
+.colone4{
+    height: 100px;
+    background-color:   hsl(10, 79%, 65%);
+}
+.colone5{
+    height: 80px;
+    background-color:   hsl(10, 79%, 65%);
+}
+.colone6{
+    height: 150px;
+    background-color:   hsl(10, 79%, 65%);
+}
+.colone7{
+    height: 90px;
+    background-color:   hsl(10, 79%, 65%);
+}
+.jour{
+    justify-content: center;
+    margin-top: 0.5rem;
+    color:  hsl(28, 10%, 53%);
+    margin-bottom: 2rem;
+}
+.bas2{
+    display: flex;
+    margin-right: 4.5rem;
+    margin-top: 1rem;
+}
+.gauche{
+    width: 60%;
+}
+
+.gauche-head{
+    font-size: 35px;
+    color: hsl(28, 10%, 53%);
+}
+.gauche-foot{
+    font-weight: bold;
+    font-size: 90px;
+}
+.droit{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 40%;
+}
+.droit-head{
+    font-weight: bold;
+    font-size: 40px;
+}
+.droit-foot{
+    color: hsl(28, 10%, 53%);
+    font-size: 35px;
+}
